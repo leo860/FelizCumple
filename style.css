@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+ background-image: url(patron.jpg);
+ background-repeat: repeat-y ;
+ background-size:100% ;
+ height: 100vh; 
+ font-family: "Edu AU VIC WA NT Hand", cursive;
+ font-weight: 600;
+ display: flex;
+ flex-direction: column;
+}
+#textos{
+  background-color: rgba(0, 0, 0, 0.8) ;
+  width: 70%;
+  border-radius: 15px;
+  padding: 35px;
+  align-self: center;
+  margin: 25px 0;
+}
+h1{
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+  padding: 25px;
+  text-shadow: 4px 4px 5px orangered;
+  color: linen;
+}
+p{
+  text-align: center;
+  color: snow;
+  font-size: 20px;
+  font-weight: 700;
+}
+#videoText{
+ width: 50%;
+  padding: 20px;
+  font-size: 25px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8) ;
+  border-radius: 15px;
+  align-self: center;
+  }
+#videoText::before{
+  content: '① - ';
+  font-weight: 900;
+  font-size: 30px;
+
+}
+#videoDiv{
+  height: 100%;
+  width: auto;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  padding: 20px;
+}
+#videoCumple{
+  width: auto;
+  height: 100%;
+}
+h2{
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+  padding: 15px;
+  color: snow;
+}
+h3{
+  text-align: center;
+  font-weight: 900;
+  font-size: 50px;
+  padding: 1px;
+  color: orangered;
+}
+#regaloText{
+  width: 50%;
+  padding: 20px;
+  font-size: 25px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8) ;
+  border-radius: 15px;
+  align-self: center;
+}
+#regaloText::before{
+  content: '② - ';
+  font-weight: 900;
+  font-size: 30px;
+  color: seashell;
+}
+#regaloDiv{
+  height: 50%;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  padding: 20px;
+  position: relative;
+  margin: auto;
+}
+#regalo{
+  position: relative;
+  width: 320px;
+  height: 320px;
+  transition-property: transform, opacity ;
+  transition-duration: 2.5s;
+  z-index: 1;
+}
+#gatoRegalo{
+  width: 200px;
+  position: absolute;
+  margin: auto;
+  z-index: 0;
+}
